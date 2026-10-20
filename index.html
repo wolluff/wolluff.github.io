@@ -223,7 +223,7 @@
       <div class="lightbox-stage" id="lightboxStage" title="Klik om in of uit te zoomen">
         <img id="lightboxImage" alt="">
       </div>
-      <div class="lightbox-caption" id="lightboxCaption">Klik op de tekening om in te zoomen · klik opnieuw om uit te zoomen</div>
+      <div class="lightbox-caption" id="lightboxCaption">Click the drawing to zoom in · click again to zoom out</div>
     </div>
   </div>
 
@@ -515,7 +515,7 @@
       image.src = src;
       image.alt = caption;
       document.getElementById("lightboxCaption").textContent =
-        caption + " · klik om in te zoomen, klik opnieuw om uit te zoomen";
+        caption + " · click to zoom in, click again to zoom out";
       lightbox.classList.add("open");
       document.body.style.overflow = "hidden";
       document.getElementById("lightboxClose").focus();
